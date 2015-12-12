@@ -13,6 +13,7 @@ var packages = [
     'cfs:ui',
     'cfs:filesystem',
     'cfs:graphicsmagick',
+    'cfs:ejson-file',
     'yogiben:autoform-file'
 ],
 both = ['client','server'];
