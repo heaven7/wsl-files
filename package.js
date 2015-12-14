@@ -8,13 +8,13 @@ Package.describe({
 
 var packages = [
     'heaven7:wsl-core@0.0.2',
-    'cfs:standard-packages',
-    'cfs:gridfs',
-    'cfs:ui',
-    'cfs:filesystem',
-    'cfs:graphicsmagick',
-    'cfs:ejson-file',
-    'yogiben:autoform-file'
+    'cfs:standard-packages@0.5.9',
+    'cfs:gridfs@0.0.33',
+    'cfs:ui@0.1.3',
+    'cfs:filesystem@0.1.2',
+    'cfs:graphicsmagick@0.0.18',
+    'cfs:ejson-file@0.0.0',
+    'yogiben:autoform-file@0.4.1'
 ],
 both = ['client','server'];
 
