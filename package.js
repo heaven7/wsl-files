@@ -6,7 +6,8 @@ Package.describe({
   documentation: 'README.md'
 });
 
-var packages = [
+var both = ['client','server'],
+    packages = [
     'heaven7:wsl-core@0.0.2',
     'cfs:standard-packages@0.5.9',
     'cfs:gridfs@0.0.33',
@@ -15,12 +16,10 @@ var packages = [
     'cfs:graphicsmagick@0.0.18',
     'cfs:ejson-file@0.0.0',
     'yogiben:autoform-file@0.4.1'
-],
-both = ['client','server'];
+];
 
 Package.onUse(function(api) {
     api.versionsFrom('1.2');
-
     api.use(packages, both);
     api.imply(packages);
 
