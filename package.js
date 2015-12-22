@@ -8,7 +8,7 @@ Package.describe({
 
 var both = ['client','server'],
     packages = [
-    'heaven7:wsl-core@0.0.2',
+    'heaven7:wsl-core@0.0.3',
     'cfs:standard-packages@0.5.9',
     'cfs:gridfs@0.0.33',
     'cfs:ui@0.1.3',
