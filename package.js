@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-files',
-  version: '0.0.1',
+  version: '0.0.3',
   summary: 'Files package for image and attachment handling',
   git: 'https://github.com/heaven7/wsl-files.git',
   documentation: 'README.md'
